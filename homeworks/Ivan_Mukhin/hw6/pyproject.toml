@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hw6"
+version = "0.1.0"
+description = ""
+authors = ["VankaVstanka03 <vvstanka39@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygments = "^2.13.0"
+pytz = "^2022.5"
+
+[tool.poetry.scripts]
+my_awesome_script = 'hw6.my_awesome_script:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
